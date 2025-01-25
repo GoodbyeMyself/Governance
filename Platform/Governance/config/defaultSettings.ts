@@ -15,7 +15,7 @@ const Settings: ProLayoutProps & {
     fixedHeader: false,
     fixSiderbar: true,
     colorWeak: false,
-    title: '数据要素 - 交易平台',
+    title: '数据治理',
     pwa: true,
     /**
      * @description: logo 可以访问本地文件, 也可以访问网络地址

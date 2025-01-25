@@ -193,7 +193,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         ...initialState?.settings,
         // 自定义 页面 title
         pageTitleRender: () => {
-            return '数据要素 - 交易平台';
+            return '数据治理';
         },
     };
 };
