@@ -1,0 +1,9 @@
+
+packages:
+  # 设置根目录
+  - './*'
+  # all packages in direct subdirs of packages/
+  - 'apps/*'
+  - 'template/*'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
