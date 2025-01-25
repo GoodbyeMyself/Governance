@@ -1,0 +1,16 @@
+export default {
+    'menu.qiankun': '微前端',
+    'menu.qiankun.microPage': '审核中心',
+    'menu.qiankun.microapp-quality': '数据质量',
+    'menu.qiankun.microapp-quality.home': '首页',
+    'menu.qiankun.microapp-quality.microapp': '微应用',
+    'menu.qiankun.microapp-quality.table': '表格页',
+    'menu.qiankun.microapp-quality.access': '权限页',
+    'menu.qiankun.microapp-service': '数据服务',
+    'menu.qiankun.microapp-service.home': '首页',
+    'menu.qiankun.microapp-service.microapp': '微应用',
+    'menu.qiankun.microapp-service.access': '权限页',
+    'menu.qiankun.microapp-etl': '数据集成',
+    'menu.qiankun.microapp-etl.home': '首页',
+    'menu.qiankun.microapp-etl.microapp': '数据离线',
+};
