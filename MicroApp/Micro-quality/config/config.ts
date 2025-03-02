@@ -10,9 +10,9 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 // 开启 Gzip
 const CompressionPlugin = require('compression-webpack-plugin');
+
 // Gzip 匹配规则
-const productionGzipExtensions =
-    /\.(js|css|json|txt|html|ico|svg|ttf|woff|woff2|eot|png|jpg|jpeg)(\?.*)?$/i;
+const productionGzipExtensions = /\.(js|css|json|txt|html|ico|svg|ttf|woff|woff2|eot|png|jpg|jpeg)(\?.*)?$/i;
 
 export default defineConfig({
     /**
@@ -68,6 +68,11 @@ export default defineConfig({
             name: '权限演示',
             path: '/access',
             component: './Access',
+        },
+        {
+            name: 'Dify 工作流',
+            path: '/dify',
+            component: './Dify',
         },
     ],
     /**
