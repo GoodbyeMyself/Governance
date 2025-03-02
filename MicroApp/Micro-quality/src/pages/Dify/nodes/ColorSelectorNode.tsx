@@ -22,6 +22,9 @@ export default memo(({ data, isConnectable }: ColorSelectorNodeProps) => {
             <div>
                 Custom Color Picker Node: <strong>{data.color}</strong>
             </div>
+            <div>
+                <i className="iconfont icon-GPT"></i>
+            </div>
             <input
                 className="nodrag"
                 type="color"

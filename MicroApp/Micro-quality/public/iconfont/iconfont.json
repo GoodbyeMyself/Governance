@@ -1,0 +1,30 @@
+{
+  "id": "4841466",
+  "name": "AI-Govern",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14477233",
+      "name": "结束",
+      "font_class": "jieshu",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "108770",
+      "name": "查看",
+      "font_class": "chakan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "36206879",
+      "name": "GPT",
+      "font_class": "GPT",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    }
+  ]
+}
