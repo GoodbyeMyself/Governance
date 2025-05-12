@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    // 设置子路径
+    basePath: '/next-test', 
+    // 可选：确保静态资源（如 _next/static）路径正确
+    assetPrefix: '/next-test/', 
+    // 可选：确保路径以斜杠结尾，防止重定向问题
+    trailingSlash: true
 };
 
 export default nextConfig;
