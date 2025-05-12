@@ -246,6 +246,8 @@ export default defineConfig({
     },
     // 要在非根目录下部署 umi 项目时，你可以使用 base 配置
     base: '/bms/',
+    // 静态资源公共路径
+    publicPath: '/bms/',
     // 输出的文件夹 名称
     outputPath: 'bms',
 });

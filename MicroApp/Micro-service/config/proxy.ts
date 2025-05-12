@@ -16,7 +16,7 @@ export default {
         // BMS 基础管理
         '/service-bms/': {
             // target: 'http://localhost:5001/',
-            target: 'https://apifoxmock.com/m1/4279578-3921636-default/',
+            target: 'https://m1.apifoxmock.com/m1/4279578-3921636-default/',
             changeOrigin: true,
             pathRewrite: {
                 '^': '',
