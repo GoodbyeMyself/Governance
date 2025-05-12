@@ -88,6 +88,8 @@ export default defineConfig({
     favicons: ['/favicon.svg'],
     // 要在非根目录下部署 umi 项目时，你可以使用 base 配置
     base: '/microapp-service/',
+    // 静态资源公共路径
+    publicPath: '/microapp-service/',
     // 输出的文件夹 名称
     outputPath: 'microapp-service',
 });

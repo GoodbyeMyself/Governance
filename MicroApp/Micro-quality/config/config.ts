@@ -88,7 +88,7 @@ export default defineConfig({
     // 微应用
     qiankun: {
         // 开启 作为子应用
-        slave: {},
+        // slave: {},
     },
     // 设置 端口号
     headScripts: [`window.publicPath = '//localhost:9002'`],
@@ -98,6 +98,8 @@ export default defineConfig({
     favicons: ['/favicon.svg'],
     // 要在非根目录下部署 umi 项目时，你可以使用 base 配置
     base: '/microapp-quality/',
+    // 静态资源公共路径
+    publicPath: '/microapp-quality/',
     // 输出的文件夹 名称
-    outputPath: 'microapp-quality',
+    outputPath: 'microapp-quality'
 });
