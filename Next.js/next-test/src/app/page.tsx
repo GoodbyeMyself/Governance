@@ -1,16 +1,17 @@
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function Home() {
     return (
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <Image
                     className="dark:invert"
-                    src="/next-test/next.svg"
+                    src={`${basePath}/next.svg`}
                     alt="Next.js logo"
                     width={180}
                     height={38}
-                    priority
                 />
                 <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                     <li className="mb-2 tracking-[-.01em]">
@@ -37,7 +38,7 @@ export default function Home() {
                     >
                         <Image
                             className="dark:invert"
-                            src="/next-test/vercel.svg"
+                            src={`${basePath}/vercel.svg`}
                             alt="Vercel logomark"
                             width={20}
                             height={20}
@@ -63,7 +64,7 @@ export default function Home() {
                 >
                     <Image
                         aria-hidden
-                        src="/next-test/file.svg"
+                        src={`${basePath}/file.svg`}
                         alt="File icon"
                         width={16}
                         height={16}
@@ -78,7 +79,7 @@ export default function Home() {
                 >
                     <Image
                         aria-hidden
-                        src="/next-test/window.svg"
+                        src={`${basePath}/window.svg`}
                         alt="Window icon"
                         width={16}
                         height={16}
@@ -93,7 +94,7 @@ export default function Home() {
                 >
                     <Image
                         aria-hidden
-                        src="/next-test/globe.svg"
+                        src={`${basePath}/globe.svg`}
                         alt="Globe icon"
                         width={16}
                         height={16}
