@@ -7,8 +7,8 @@ export const apps = [
     {
         // BMS 基础管理
         name: 'bms',
-        // entry: '//localhost:5001',
-        entry: 'http://124.223.215.81:5001/',
+        entry: '//localhost:5002',
+        // entry: 'http://124.223.215.81:5001/',
     },
     {
         // 微应用 审核中心
